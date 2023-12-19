@@ -1,4 +1,5 @@
 import { isMobile } from "react-device-detect";
+import Image from 'next/image';
 
 
 const mobtext = {
@@ -27,7 +28,7 @@ function Banner() {
             <div className="row">
                 <div className="col-lg-12">
                     <div style={{ position: 'relative' }}>
-                        <img
+                        <Image
                             src="https://img.freepik.com/free-photo/still-life-home-atmosphere-interior-with-book-candles-table-cozy-bedspreads_169016-1308.jpg?w=1380&t=st=1702965733~exp=1702966333~hmac=01a53427cfaa1e5216e1bdf35e514be80d8c35c9bc7461ace62f526da9f9029a"
                             style={{ width: '100%', height: '400px' }}
                             alt="Banner"
