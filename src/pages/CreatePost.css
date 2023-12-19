@@ -1,0 +1,7 @@
+.ves {
+    background-image: linear-gradient(to bottom, rgb(230 0 0 / 50%) 0%, rgb(230 0 0 / 0%) 100%);    /* Use 'to top' for a gradient at the bottom */
+  
+    background-color: rgb(230 0 0 / 50%) 0%;
+   
+}
+
