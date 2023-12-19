@@ -30,7 +30,7 @@ Blog</Link></div>
 
       </div>
     </div>
-    <Banner/>
+    {/* <Banner/> */}
       <Blog/>
     </>
   );

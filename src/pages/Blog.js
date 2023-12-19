@@ -5,7 +5,7 @@ import Link from 'next/link';
 import axios from 'axios';
 
 const Blog = () => {
-  const [currentPage, setCurrentPage] = useState(1);
+const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 9; // Number of posts per page
 
   const [posts, setPosts] = useState([]);

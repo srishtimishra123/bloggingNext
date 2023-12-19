@@ -34,7 +34,7 @@ const PostDetailPage = () => {
                         <div className='col-lg-2'></div>
                         <div className='col-lg-8'>
                             <div className='row'>
-                                <div className='col-lg-6'>    {image && <Image src={image} alt={post.title} style={{ width: '100%' }} />}</div>
+                                <div className='col-lg-3'>   </div>
                                 <div className='col-lg-6'>
                                     <h1>{post.title}</h1>
                                     <p className='mt-3'>Content <br />{post.body}</p>
