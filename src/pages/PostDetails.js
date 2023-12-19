@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import posts from './PostData'; // Check the correct path to PostData
+
 
 const PostDetail = ({ post }) => {
   if (!post) return <div>Loading...</div>;
